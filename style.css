@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 40%;
+    padding: 14px;
+    border-radius: 6px;
+}
+
+.container {
+    background-color: #EEE;
+    height: 500px;
+    border-radius: 6px;
+}
+
+.form {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    padding: 30px;
+    margin: 20px auto;
+    justify-content: space-around;
+}
+
+.form .input {
+    width: 80%;
+    padding: 30px;
+    border-radius: 6px;
+    font-size: 20px;
+    height: 58px;
+}
+
+.form .add, .form .deleteall {
+    cursor: pointer;
+    border-radius: 6px;
+    height: 58px;
+    font-size: 16px;
+}
+
+.form .add {
+    background-color: green;
+    color: white;
+}
+
+.form .add:hover {
+    background-color: rebeccapurple;
+    transition: 0.5s;
+}
+
+.form .deleteall {
+    background-color: red;
+    color: white;
+}
+
+.form .deleteall:hover {
+    background-color: grey;
+    transition: 0.5s;
+}
+
+.tasks .task {
+    padding: 20px;
+    margin: 12px;
+    background-color: white;
+    text-align: center;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tasks .del {
+    background-color: red;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.task.done {
+    background-color: aqua;
+}
